@@ -94,10 +94,15 @@ hr {
 
 section{
     width: 70%;
+    margin: 5px;
 }
 
 main{
     display: flex;
+}
+
+nav{
+  z-index: 100;
 }
 
 @media only screen and (max-width: 590px) {
@@ -106,7 +111,7 @@ main{
     display: flex;
     flex-direction: column;
     position: absolute;
-    margin-top: 210px;
+    margin-top: 140px;
     background-color: black;
   }
 
@@ -139,12 +144,17 @@ main{
     flex-direction: column;
     text-align: center;
   }
-
+/* 
   .space{
       width: 2%;
-  }
+  } */
 
   section{
       width: 98%;
   }
+
+  .space{
+    display: none;
+  }
+
 }
